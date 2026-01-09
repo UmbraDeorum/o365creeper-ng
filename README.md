@@ -21,11 +21,11 @@
     o365creeper-ng.py -f emails.txt -o valid.txt -p proxies.txt -d 1
 
 ## FEATURES
-  • Automatic proxy rotation on throttling or connection errors
-  • Persistent retry logic - never skips entries
-  • Tracks and skips failed proxies automatically
-  • Falls back to direct connection if all proxies fail
-  • Clean output showing which proxy validated each email
+    - Automatic proxy rotation on throttling or connection errors
+    - Persistent retry logic - never skips entries
+    - Tracks and skips failed proxies automatically
+    - Falls back to direct connection if all proxies fail
+    - Clean output showing which proxy validated each email
 
 ## NOTE
     Office 365 may throttle repeated validation attempts (ThrottleStatus = 1), causing 
