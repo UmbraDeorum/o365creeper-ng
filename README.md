@@ -1,7 +1,7 @@
 ## Description
     This is a Python3 script used to validate email accounts that belong to Office 365 tenants. 
     This script takes either a single email address or a list of email addresses as input, 
-    sends a request to Office 365 without a password, and looksfor the the "IfExistsResult"
+    sends a request to Office 365 without a password, and looks for the "IfExistsResult"
     parameter to be set to 0 for a valid account. Invalid accounts will return a 1.
 
 ## Usage
